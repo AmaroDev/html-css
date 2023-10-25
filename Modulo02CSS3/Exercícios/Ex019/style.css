@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(196, 221, 213);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    
+    
+}
+
+.basico {
+    color: blueviolet;
+    
+    font-weight: bold;
+
+}
+.intermediario {
+    color: brown;
+    
+}
+.valdo {
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+}
+.avancado {
+    color: rgb(255, 102, 0);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgba(126, 126, 245, 0.548);
+    color: azure;
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(2, 77, 77);
+}
+
+
+h2 {
+    color: rgb(50, 107, 107);
+}

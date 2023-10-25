@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body {
+    height: 85vh;
+    background-image:url("Fotos/Render.jpg");
+    px;
+    border-radius: 20px;
+    margin: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: justify;
+
+    
+}
+
+main {
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #1b7f7ac4;
+    width: 600px;
+    padding: 7px;
+    margin: auto;
+    background-position: center center;
+}
+
+h1 {
+    color: #046275 ;
+    text-align: center;
+    text-shadow: 2px 2px 2px #363318;
+}
+
+h2 {
+    color: #4333a7;
+}
+
+p {
+    text-align: justify;
+}
