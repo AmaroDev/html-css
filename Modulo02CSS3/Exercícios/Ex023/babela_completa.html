@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Completa</title>
+
+    <style>
+        h1 {
+            font-size: 1em;
+            text-align: center;
+        }
+
+        
+        
+        table {
+            border-collapse: collapse;
+            font-style: italic;
+            
+            
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: ;
+            font-style: italic;
+            
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            width: 300px;
+            text-align: center;
+
+        }
+
+        td.linha {
+            background-color: aquamarine;
+            
+        }
+
+        td.coluna {
+            background-color: rgb(248, 200, 142);
+        }
+        td.mulheres {
+            background-color: rgb(218, 203, 185);
+            
+        }
+
+        td.negrito {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Mesclagem de Células</h1>
+
+    <table>
+        <tr>
+            <td class="negrito">Grupo</td>
+            <td class="negrito">Nomes</td>
+            <td class="negrito" colspan="3">Filmes</td>
+            
+        </tr>
+
+        <tr>
+            <td class="mulheres" rowspan="3">Mulheres</td>
+            <td class="mulheres">Ana Maria Santos</td>
+            <td class="mulheres">Alien</td>
+            <td class="mulheres">Rambo</td>
+            <td class="mulheres">Vingadores</td>
+        </tr>
+
+        <tr>
+            
+            <td class="mulheres">Beatriz Souza</td>
+            <td class="mulheres">Hulk</td>
+            <td class="mulheres">Inception</td>
+            <td class="mulheres">Batman</td>
+        </tr>
+
+        <tr>
+            
+            <td class="mulheres">Cláudia Melo</td>
+            <td class="mulheres">Oblivion</td>
+            <td class="mulheres">Matrix</td>
+            <td class="mulheres">Big Hero</td>
+        </tr>
+        <tr>
+            <td class="coluna" rowspan="3">Homens</td>
+            <td class="coluna">Bruno Mendonça</td>
+            <td class="coluna">Intocáveis</td>
+            <td class="coluna">Amnésia</td>
+            <td class="coluna">Gladiador</td>
+        </tr>
+        <tr>
+            
+            <td class="coluna">Daniel Lourenço</td>
+            <td class="coluna">Wall-E</td>
+            <td class="coluna">Oldboy</td>
+            <td class="coluna">Dangal</td>
+        </tr>
+        <tr>
+            
+            <td class="coluna">Fabiano Mota</td>
+            <td class="coluna">Star Wars 5</td>
+            <td class="coluna">Taxi Driver</td>
+            <td class="coluna">Toy Story</td>
+        </tr>
+    
+</body>
+</html>
