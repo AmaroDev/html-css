@@ -11,7 +11,19 @@
     </style>
 </head>
 <body>
-    <h1>Meu primeiro foemulário</h1>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off"><!-- autocomplete serve para desligar o autopreenchimento dos formulários-->
+        <p><label for="inome">nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="iSobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="iSobrenome">
+        </p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
     
 </body>
 </html>
+
+<!-- Metodo GET "até 3000 bits" (PADRÃO- Dados Não sensíveis): Mostra os dados no link --
+    ------------------------------
+POST "Dados sensíveis": Somente incobre os dados, mas pode ser localizado na inspeção de página web(Network + dados digitados + enviar + headers + cadastro.php) 
+
+Para garantir segurança somente com "HTTPS"-->
